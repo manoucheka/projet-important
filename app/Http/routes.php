@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::resource('flyers', 'FlyersController');
 
 
+Route::resource('reports', 'ReportsController');
 
 /*
 |--------------------------------------------------------------------------
